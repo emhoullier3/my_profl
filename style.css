@@ -1,0 +1,135 @@
+/*/* Colors and fonts */
+
+body {
+	background-color: #FFB6C1;
+	color: #008000;
+	font-family: Georgia, serif;
+	font-size: 16px;
+
+}
+h1, h2, h3 {
+	font-family: American Typewriter, serif;
+}
+
+h1 {
+	color: #008000;
+	font-weight: bold;
+	font-size: 43px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 25px;
+	
+
+}
+
+h2 {
+	color: #008000;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+
+a{
+	font-family: American Typewriter, serif;
+	text-decoration: none;
+	color: #DC143C;
+}
+a:hover{
+	color: royalblue;
+	text-decoration: underline ;
+}
+
+ul{
+		list-style-type: :none;
+}
+
+
+/* Custome designe with class */
+
+
+#pp{
+	width: 270px;
+	border-radius: 50%;
+	box-shadow: 10px 4px 5px pink;
+	margin: 15px;
+
+}
+.container{
+	width: 900px;
+	margin: 40px auto;
+}
+
+
+.card{
+	background-color: #fffcf3;
+	padding: 30px;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-beige{
+	background-color: #FFF8DC;
+	padding: 15px 15px;
+	border-radius: 10px;
+	box-shadow: 50px 10px 30px rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+
+.logo{
+	width: 70px;
+	margin: 10px;
+}
+
+.list-inline li{;
+	display: inline;
+}
+
+.list-inline{
+	padding-left: 10px;
+	list-style-type: none;
+}
+
+
+
+#intro p{
+	margin-bottom: 40px;
+}
+
+#insta{
+	width: 50px;
+	margin: 18px;
+}
+
+
+@media (max-width: 500px) {         
+	.container { 
+		width: 600px;
+	}
+}
+
+@media (max-width: 760px) {        
+	.container { 
+		width: 400px;
+	}
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
